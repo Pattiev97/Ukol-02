@@ -1,4 +1,4 @@
-const pocetKusu = prompt("Zadej počet kusů, které si chceš objednat:")
+const pocetKusu = prompt("Zadej počet triček, které si chceš objednat:")
 
 if(pocetKusu < 50) {
     document.body.innerHTML = `Celková cena objednávky za ${pocetKusu} triček je ${pocetKusu * 300} Kč.`
